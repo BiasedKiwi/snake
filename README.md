@@ -5,3 +5,7 @@ A simple snake game, made with pure CSS and JavaScript. Currently broken, I don'
 ### Demo
 
 ![](./snake_demo.gif)
+
+### License
+
+See ![LICENSE](LICENSE)
