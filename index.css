@@ -1,0 +1,42 @@
+body {
+    background-color: skyblue
+}
+
+.score, .high-score {
+    position: absolute;
+    font-size: 40px;
+    background-color: red;
+    right: 10px;
+    color: white;
+}
+
+.high-score {
+    top: 100px;
+}
+
+.grid-element {
+    outline: black solid 3px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1;
+    background-color: white;
+}
+
+.snake {
+    background-color: black !important;
+    color: white;
+}
+
+.apple {
+    background-color: red;
+}
+
+.container {
+    width:100px;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-gap: 5px;
+    column-gap:10px;
+    row-gap:10px;
+}
