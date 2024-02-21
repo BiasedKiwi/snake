@@ -27,7 +27,7 @@ const renderGrid = (side = 30) => {
     const el = document.createElement("div");
     el.classList.add("grid-element");
     el.id = elId;
-    el.innerText = elId;
+    // el.innerText = elId;
     elId++;
     container.appendChild(el);
   }
